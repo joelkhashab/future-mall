@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Mall</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Future Mall</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#stores">Stores</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </nav>
+
+    <header id="home">
+        <h1>Welcome to Future Mall</h1>
+        <p>Discover the Best Shopping Experience</p>
+    </header>
+
+    <h2 class="section-title" id="stores">Our Stores</h2>
+    <div class="stores-container">
+        
+        <div class="store-card">
+            <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=800&auto=format&fit=crop" alt="Fashion T-Shirts">
+            <div class="store-info">
+                <h3>Fashion T-Shirts</h3>
+                <p>Discover our trendy streetwear collection of high-quality oversized t-shirts.</p>
+                <button class="btn" onclick="alert('Welcome to Fashion T-Shirts!')">Shop Now</button>
+            </div>
+        </div>
+
+        <div class="store-card">
+            <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400" alt="Jeans Store">
+            <div class="store-info">
+                <h3>Denim Jeans</h3>
+                <p>Classic and modern jeans for everyone.</p>
+                <button class="btn" onclick="alert('Welcome to Denim Jeans!')">Visit Store</button>
+            </div>
+        </div>
+
+        <div class="store-card">
+            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400" alt="Shoes Store">
+            <div class="store-info">
+                <h3>Sneakers & Shoes</h3>
+                <p>Comfortable shoes for sports and daily use.</p>
+                <button class="btn" onclick="alert('Welcome to Sneakers & Shoes!')">Visit Store</button>
+            </div>
+        </div>
+
+        <div class="store-card">
+            <img src="https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?w=400" alt="Jacket Store">
+            <div class="store-info">
+                <h3>Leather Jackets</h3>
+                <p>Stylish jackets for winter and autumn.</p>
+                <button class="btn" onclick="alert('Welcome to Leather Jackets!')">Visit Store</button>
+            </div>
+        </div>
+
+        <div class="store-card">
+            <img src="https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=400" alt="Cap Store">
+            <div class="store-info">
+                <h3>Caps & Accessories</h3>
+                <p>Cool caps and fashion accessories.</p>
+                <button class="btn" onclick="alert('Welcome to Caps & Accessories!')">Visit Store</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions? Send us a message!</p>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Message Sent Successfully!');">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Your Phone Number (Optional)">
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Future Mall. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
